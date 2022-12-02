@@ -1,0 +1,12 @@
+/*
+Tailwind installed
+daisy UI
+react router
+react typing animation
+
+
+
+
+
+
+*/
