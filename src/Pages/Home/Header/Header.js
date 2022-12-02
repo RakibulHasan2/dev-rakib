@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='lg:flex justify-evenly mb-10 text-white'>
             <div className="w-2/5 mt-5">
-                <h1 className='text-xl'>Hello</h1>
+                <h1 className='text-xl'>Hello,</h1>
                 <TypeAnimation
                     sequence={[
                         'I am Rakibul Hasan, a Designer',
@@ -21,7 +21,6 @@ const Header = () => {
                 />
                 <p className='mt-5'>A self-motivated and enthusiastic web developer with a deep interest in JavaScript and other programming languages. Seeking a Web Developer position in a company where I can use my skills and develop my skills .
                 </p>
-                {/* <button className='btn mt-5 bg-sky-800 text-white mr-5'>Download My Resume</button> */}
                 <a
                     className="btn mt-5 bg-sky-800 text-white mr-5"
                     href={resume}
