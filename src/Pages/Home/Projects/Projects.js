@@ -5,8 +5,8 @@ const Projects = () => {
     const projectsData = project;
     // console.log(projectsData)
     return (
-        <div>
-            <h1 className='text-4xl text-center font-bold mt-5 mb-8'>Some Of My Projects</h1>
+        <div className='text-white mb-10'>
+            <h1 className='text-4xl text-center font-bold mt-20 mb-8'>Some Of My Projects</h1>
             <div className='lg:grid grid-cols-3 ml-10'>
                 {
                     projectsData.map(project => <ProjectCard
