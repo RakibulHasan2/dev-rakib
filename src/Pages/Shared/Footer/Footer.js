@@ -4,18 +4,20 @@ const Footer = () => {
     return (
         <footer className="footer text-white lg:flex justify-evenly items-center p-10 bg-base-300   ">
             <div>
-                <span className="footer-title">Services</span>
-                <a href= ' ' className="link link-hover">Branding</a>
-                <a href= ' ' className="link link-hover">Design</a>
-                <a href= ' ' className="link link-hover">Marketing</a>
-                <a href= ' ' className="link link-hover">Advertisement</a>
+                <span className="footer-title">Know For Dev</span>
+                <a href= ' ' className="link link-hover">Javascript</a>
+                <a href= ' ' className="link link-hover">UI Design</a>
+                <a href= ' ' className="link link-hover">React</a>
+                <a href= ' ' className="link link-hover">Node JS</a>
+                <a href= ' ' className="link link-hover">Mongodb</a>
+                <a href= ' ' className="link link-hover">Express</a>
             </div>
             <div>
-                <span className="footer-title">Company</span>
-                <a href= ' ' className="link link-hover">About us</a>
+                <span className="footer-title">Quick Links</span>
+                <a href= ' ' className="link link-hover">About Me</a>
                 <a href= ' ' className="link link-hover">Contact</a>
-                <a href= ' ' className="link link-hover">Jobs</a>
-                <a href= ' ' className="link link-hover">Press kit</a>
+                <a href= ' ' className="link link-hover">Blog</a>
+                <a href= ' ' className="link link-hover">Resume</a>
             </div>
             <div>
                 <span className="footer-title">Social</span>

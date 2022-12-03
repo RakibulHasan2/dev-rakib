@@ -5,7 +5,7 @@ const Projects = () => {
     const projectsData = project;
     // console.log(projectsData)
     return (
-        <div className='text-white mb-10  p-9'>
+        <div className='text-white mb-10  p-9' id='project'>
             <h1 className='text-4xl text-center font-bold  mb-8'>Some Of My Projects</h1>
             <div className='lg:grid grid-cols-3 mt-10 ml-10'>
                 {

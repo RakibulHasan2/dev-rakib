@@ -24,11 +24,11 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                    <li><a href=' '><AiOutlineHome></AiOutlineHome> Home</a></li>
-                    <li><a href=' '><GiSkills></GiSkills> Skills</a></li>
-                    <li><a href=' '><AiOutlineProject></AiOutlineProject> Projects</a></li>
-                    <li><a href=' '><FcAbout></FcAbout> About</a></li>
-                    <li><a href=' '><TiContacts></TiContacts> Contact</a></li>
+                    <li><a href='/'><AiOutlineHome></AiOutlineHome> Home</a></li>
+                    <li><a href='/'><GiSkills></GiSkills> Skills</a></li>
+                    <li><a href='/'><AiOutlineProject></AiOutlineProject> Projects</a></li>
+                    <li><a href='/'><FcAbout></FcAbout> About</a></li>
+                    <li><a href='/'><TiContacts></TiContacts> Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">

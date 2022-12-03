@@ -27,7 +27,7 @@ const Skills = () => {
             <h1 className='text-center text-3xl font-bold text-white mb-8'>My Skills</h1>
             <div className='lg:flex justify-evenly'>
                 <img className='skillImg' src={skillImg} alt="" />
-                <div className='w-1/2 '>
+                <div className='lg:w-1/2 '>
                     <SkillBar skills={skills} colors={colors} />
                 </div>
             </div>
