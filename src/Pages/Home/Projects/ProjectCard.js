@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
         <div className="card w-96 bg-base-100 shadow-2xl">
             <figure><img className='h-56' src={image} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">
+                <h2 className="card-title text-2xl">
                     {name}
                 </h2>
                 <div className="card-actions justify-end">

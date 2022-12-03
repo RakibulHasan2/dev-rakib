@@ -1,4 +1,9 @@
 import React from 'react';
+import { AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
+import { GiSkills } from 'react-icons/gi'
+import { FcAbout } from 'react-icons/fc'
+import { TiContacts } from 'react-icons/ti'
+import resume from '../../../resume/RakibulHasanResume.pdf'
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 text-white">
@@ -10,24 +15,28 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href=' '>Home</a></li>
                         <li><a href=' '>Skills</a></li>
-                        <li><a  href=' '>Projects</a></li>
-                        <li><a  href=' '>About</a></li>
-                        <li><a  href=' '>Contact</a></li>
+                        <li><a href=' '>Projects</a></li>
+                        <li><a href=' '>About</a></li>
+                        <li><a href=' '>Contact</a></li>
                     </ul>
                 </div>
-                <a  href=' ' className="btn btn-ghost text-white font-bold normal-case text-3xl">MERN STACK</a>
+                <a href=' ' className="btn btn-ghost text-white font-bold normal-case text-3xl">MERN STACK</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                <li><a href=' '>Home</a></li>
-                        <li><a href=' '>Skills</a></li>
-                        <li><a  href=' '>Projects</a></li>
-                        <li><a  href=' '>About</a></li>         
-                        <li><a  href=' '>Contact</a></li>           
+                    <li><a href=' '><AiOutlineHome></AiOutlineHome> Home</a></li>
+                    <li><a href=' '><GiSkills></GiSkills> Skills</a></li>
+                    <li><a href=' '><AiOutlineProject></AiOutlineProject> Projects</a></li>
+                    <li><a href=' '><FcAbout></FcAbout> About</a></li>
+                    <li><a href=' '><TiContacts></TiContacts> Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a  href=' ' className="btn btn-outline">Resume</a>
+                <a href={resume}
+                    download="RakibulHasanResume.pdf"
+                    className="btn border-white  text-sky-200  hover:bg-sky-800 hover:text-white hover:border-white">
+                    Resume
+                </a>
             </div>
         </div>
     );
