@@ -3,8 +3,9 @@ import { FaGithub } from 'react-icons/fa';
 import { AiOutlineEye } from 'react-icons/ai';
 const ProjectCard = ({ project }) => {
     const { name, tech, image, liveSite, clientSiteCode, serverSiteCode } = project;
+    console.log(clientSiteCode)
     return (
-        <div className="card w-96 bg-base-100 shadow-2xl">
+        <div data-aos='fade-right'  className="card w-96 bg-base-100 shadow-2xl">
             <figure><img className='h-56' src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title text-2xl">

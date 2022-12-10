@@ -23,11 +23,11 @@ const Skills = () => {
     };
 
     return (
-        <div className=''>
-            <h1 className='text-center text-3xl font-bold text-white mb-8'>My Skills</h1>
+        <div id='skill' className='mt-12 mb-10'>
+            <h1 data-aos='fade-up' className='text-center text-3xl font-bold text-white mb-8'>My Skills</h1>
             <div className='lg:flex justify-evenly'>
-                <img className='skillImg' src={skillImg} alt="" />
-                <div className='lg:w-1/2 w-3/4'>
+                <img data-aos='fade-right' className='skillImg' src={skillImg} alt="" />
+                <div  data-aos='fade-left' className='lg:w-1/2 w-3/4'>
                     <SkillBar skills={skills} colors={colors} />
                 </div>
             </div>

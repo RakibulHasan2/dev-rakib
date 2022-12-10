@@ -1,12 +1,19 @@
 import React from 'react';
-import img from '../../../images/Rakib.jpg'
+import img from '../../../images/269847743_1314759208937930_5561342125142073302_n.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import { BiDownload } from 'react-icons/bi';
 import resume from '../../../resume/RakibulHasanResume.pdf'
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Header = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
     return (
         <div className='lg:flex justify-evenly p-16 mb-10 text-white'>
-            <div className="lg:w-2/5 mt-10 ">
+            <div  data-aos='fade-right' data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="lg:w-2/5 mt-10 ">
                 <h1 className='text-2xl'>Hello,</h1>
                 <TypeAnimation
                     sequence={[
@@ -31,7 +38,8 @@ const Header = () => {
                 </a>
                 <button className='btn mt-5 border-white text-sky-200 hover:bg-sky-800 hover:text-white hover:border-white '>Get In Touch</button>
             </div>
-            <div className='mt-8'>
+            <div data-aos='fade-left' data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  className='mt-8'>
                 <img className='h-72 mx-6 rounded-full' src={img} alt="" />
             </div>
         </div>

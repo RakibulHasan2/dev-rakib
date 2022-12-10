@@ -6,8 +6,9 @@ import { FaFacebookSquare } from 'react-icons/fa'
 import { GrLinkedin} from 'react-icons/gr'
 import { ImTwitter} from 'react-icons/im'
 const ContactMe = () => {
+    
     return (
-        <div className='lg:p-16 p-4'>
+        <div data-aos='fade-up' id='contact' className='lg:p-16 p-4 mt-12'>
             <h1 className='font-bold text-center mt-5 mb-8 text-white text-3xl'>Contact Me</h1>
             <div className='lg:flex justify-evenly p-14 mb-10 bg-gray-900'>
                 <div className='rounded-lg lg:p-8'>
@@ -22,8 +23,10 @@ const ContactMe = () => {
                         <ImTwitter className='text-3xl'></ImTwitter>
                     </div>
                 </div>
-                <div className='rounded-lg lg:mt-0 mt-8 lg:p-8 bg-white shadow-2xl'>
-                    <h1 className='title text-center text-3xl font-bold mb-8'>Login</h1>
+                <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className='rounded-lg lg:mt-0 mt-12 lg:p-8 bg-white shadow-2xl'>
+                    <h1 className='title text-center text-3xl font-bold mb-8'>Text Me</h1>
                     <form>
                         <div className='login-form flex justify-evenly'>
                             <label htmlFor="name" className='text-xl  text-black font-bold'>Name : </label>

@@ -14,7 +14,7 @@
         ],
         "image": "https://i.ibb.co/7W37QF7/image.png",
         "liveSite": "https://laptop-genics.web.app/",
-        "clientSiteCode:": "https://github.com/RakibulHasan2/laptop-genics",
+        "clientSiteCode": "https://github.com/RakibulHasan2/laptop-genics",
         "serverSiteCode": "https://github.com/RakibulHasan2/laptop-genics-server"
     },
     {
@@ -32,7 +32,7 @@
         ],
         "image": "https://i.ibb.co/jDyJQGd/image.png",
         "liveSite": "https://doctors-porta-d7630.web.app/",
-        "clientSiteCode:": "https://github.com/RakibulHasan2/doctors-portal",
+        "clientSiteCode": "https://github.com/RakibulHasan2/doctors-portal",
         "serverSiteCode": "https://github.com/RakibulHasan2/doctor-s-portal-server"
     },
     {
@@ -50,7 +50,7 @@
         ],
         "image": "https://i.ibb.co/xm1S733/image.png",
         "liveSite": "https://true-care-e2eb9.web.app/",
-        "clientSiteCode:": "https://github.com/RakibulHasan2/laptop-genics",
-        "serverSiteCode": "https://github.com/RakibulHasan2/laptop-genics-server"
+        "clientSiteCode": "https://github.com/RakibulHasan2/true-care-client-site",
+        "serverSiteCode": "https://github.com/RakibulHasan2/true-care-server-site"
     }
 ]
