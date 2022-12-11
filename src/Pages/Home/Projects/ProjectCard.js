@@ -1,8 +1,10 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { AiOutlineEye } from 'react-icons/ai';
+import { RiArrowRightSLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
-    const { name, tech, image, liveSite, clientSiteCode, serverSiteCode } = project;
+    const {id, name, tech, image, liveSite, clientSiteCode, serverSiteCode } = project;
     return (
         <div data-aos='fade-right' className="card w-96 bg-base-100 shadow-2xl">
             <figure><img className='h-56' src={image} alt="Shoes" /></figure>
@@ -11,7 +13,7 @@ const ProjectCard = ({ project }) => {
                     <h2 className="card-title text-2xl">
                         {name}
                     </h2>
-                    <button className='bg-gray-900 btn text-white'>See Details</button>
+                    <Link to={`${id}`} className='bg-gray-900 btn text-white'>See Details <RiArrowRightSLine></RiArrowRightSLine></Link>
                 </div>
                 <div className="card-actions justify-end">
                     {
