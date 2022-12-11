@@ -3,14 +3,16 @@ import { FaGithub } from 'react-icons/fa';
 import { AiOutlineEye } from 'react-icons/ai';
 const ProjectCard = ({ project }) => {
     const { name, tech, image, liveSite, clientSiteCode, serverSiteCode } = project;
-    console.log(clientSiteCode)
     return (
-        <div data-aos='fade-right'  className="card w-96 bg-base-100 shadow-2xl">
+        <div data-aos='fade-right' className="card w-96 bg-base-100 shadow-2xl">
             <figure><img className='h-56' src={image} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title text-2xl">
-                    {name}
-                </h2>
+                <div className='flex justify-between mb-4'>
+                    <h2 className="card-title text-2xl">
+                        {name}
+                    </h2>
+                    <button className='bg-gray-900 btn text-white'>See Details</button>
+                </div>
                 <div className="card-actions justify-end">
                     {
                         tech.map(techName =>

@@ -11,9 +11,9 @@ const Header = () => {
         Aos.init({ duration: 1000 })
     }, [])
     return (
-        <div className='lg:flex justify-evenly p-16 mb-10 text-white'>
-            <div  data-aos='fade-right' data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="lg:w-2/5 mt-10 ">
+        <div className='lg:flex justify-evenly p-14  mb-10 text-white'>
+            <div data-aos='fade-right' data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="lg:w-2/5 mt-10">
                 <h1 className='text-2xl'>Hello,</h1>
                 <TypeAnimation
                     sequence={[
@@ -34,12 +34,12 @@ const Header = () => {
                     href={resume}
                     download="RakibulHasanResume.pdf"
                 >
-                   <BiDownload className='mr-2'></BiDownload> Download Resume
+                    <BiDownload className='mr-2'></BiDownload> Download Resume
                 </a>
                 <button className='btn mt-5 border-white text-sky-200 hover:bg-sky-800 hover:text-white hover:border-white '>Get In Touch</button>
             </div>
             <div data-aos='fade-left' data-aos-offset="300"
-     data-aos-easing="ease-in-sine"  className='mt-8'>
+                data-aos-easing="ease-in-sine" className='mt-8'>
                 <img className='h-72 mx-6 rounded-full' src={img} alt="" />
             </div>
         </div>

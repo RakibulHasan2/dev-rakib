@@ -5,7 +5,7 @@ const Projects = () => {
     const projectsData = project;
     // console.log(projectsData)
     return (
-        <div  className='text-white mb-10 p-9'>
+        <div  className='text-white mb-10 p-7'>
             <h1 data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="3500" className='text-4xl text-center font-bold  mb-8'>Some Of My Projects</h1>

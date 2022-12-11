@@ -14,10 +14,10 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href='#/'>Home</a></li>
-                        <li><a href='#skill'>Skills</a></li>
                         <li><a href=' '>Projects</a></li>
                         <li><a href=' '>About</a></li>
                         <li><a href='#contact'>Contact</a></li>
+                        <li><a href='#contact'>Blog</a></li>
                     </ul>
                 </div>
                 <a href=' ' className="btn btn-ghost text-white font-bold normal-case text-3xl">MERN STACK</a>
@@ -25,10 +25,10 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li><a href='#/'><AiOutlineHome></AiOutlineHome> Home</a></li>
-                    <li><a href='#skill'><GiSkills></GiSkills> Skills</a></li>
                     <li><a href='/'><AiOutlineProject></AiOutlineProject> Projects</a></li>
                     <li><a href='/'><FcAbout></FcAbout> About</a></li>
                     <li><a href='#contact'><TiContacts></TiContacts> Contact</a></li>
+                    <li><a href='#contact'><TiContacts></TiContacts> Blog</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
