@@ -20,9 +20,13 @@ const router = createBrowserRouter([
             {
                 path: '/projects/:id',
                 loader: async ({params}) => {
-                    return fetch(`projectsData.json/${params.id}`)
+                    return fetch(`https://dev-rakib-servrer.vercel.app/projects/${params.id}`)
                 },
                 element: <ProjectsDetails></ProjectsDetails>
+            },
+            {
+                path: '/blog',
+                element: <h1 className="text-4xl font-bold text-center">Blog is coming</h1>
             }
         ]
     }

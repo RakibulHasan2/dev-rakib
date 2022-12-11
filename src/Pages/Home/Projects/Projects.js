@@ -1,10 +1,16 @@
-import React from 'react';
-import project from '../../../Data/projectsData.json'
+import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import { Link } from 'react-router-dom';
 const Projects = () => {
-    const projectsData = project;
-    // console.log(projectsData.slice(0,3))
+    const [projectsData, setProjectsData] = useState([])
+    useEffect(() =>{
+        fetch('https://dev-rakib-servrer.vercel.app/projects')
+        .then(res => res.json())
+        .then(data => setProjectsData(data))
+    } ,[])
+
+
+   
     return (
         <div className='text-white mb-10 p-7'>
             <h1 data-aos="fade-down"

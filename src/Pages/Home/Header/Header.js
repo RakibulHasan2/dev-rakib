@@ -6,6 +6,7 @@ import resume from '../../../resume/RakibulHasanResume.pdf'
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import './Header.css'
 const Header = () => {
     useEffect(() => {
         Aos.init({ duration: 1000 })
@@ -13,7 +14,7 @@ const Header = () => {
     return (
         <div className='lg:flex justify-evenly p-14  mb-10 text-white'>
             <div data-aos='fade-right' data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="lg:w-2/5 mt-10">
+                data-aos-easing="ease-in-sine" className="header-text mt-10 p-7 ">
                 <h1 className='text-2xl'>Hello,</h1>
                 <TypeAnimation
                     sequence={[
@@ -36,7 +37,7 @@ const Header = () => {
                 >
                     <BiDownload className='mr-2'></BiDownload> Download Resume
                 </a>
-                <button className='btn mt-5 border-white text-sky-200 hover:bg-sky-800 hover:text-white hover:border-white '>Get In Touch</button>
+                <a href='#contact' className='btn mt-5 border-white text-sky-200 hover:bg-sky-800 hover:text-white hover:border-white '>Get In Touch</a>
             </div>
             <div data-aos='fade-left' data-aos-offset="300"
                 data-aos-easing="ease-in-sine" className='mt-8'>

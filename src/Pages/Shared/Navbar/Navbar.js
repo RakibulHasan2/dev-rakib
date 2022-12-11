@@ -16,9 +16,9 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/projects'>Projects</Link></li>
-                        <li><a href=' '>About</a></li>
+                        <li><a href='#about'>About</a></li>
                         <li><a href='#contact'>Contact</a></li>
-                        <li><a href='#contact'>Blog</a></li>
+                        <li><a href='/blog'>Blog</a></li>
                     </ul>
                 </div>
                 <a href=' ' className="btn btn-ghost text-white font-bold normal-case text-3xl">MERN STACK</a>
@@ -27,9 +27,9 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal p-0">
                     <li><Link to='/'><AiOutlineHome></AiOutlineHome> Home</Link></li>
                     <li><Link to='/projects'><AiOutlineProject></AiOutlineProject> Projects</Link></li>
-                    <li><a href='/'><FcAbout></FcAbout> About</a></li>
+                    <li><a href='#about'><FcAbout></FcAbout> About</a></li>
                     <li><a href='#contact'><TiContacts></TiContacts> Contact</a></li>
-                    <li><a href='#contact'><TiContacts></TiContacts> Blog</a></li>
+                    <li><a href='/blog'><TiContacts></TiContacts> Blog</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
