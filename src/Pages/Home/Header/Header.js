@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../../../images/269847743_1314759208937930_5561342125142073302_n.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import { BiDownload } from 'react-icons/bi';
-import resume from '../../../resume/RakibulHasanResume.pdf'
+import resume from '../../../resume/RakibResume.pdf'
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'

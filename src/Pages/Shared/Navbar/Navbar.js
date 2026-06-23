@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
 import { GiSkills } from 'react-icons/gi'
 import { FcAbout } from 'react-icons/fc'
 import { TiContacts } from 'react-icons/ti'
-import resume from '../../../resume/RakibulHasanResume.pdf'
+import resume from '../../../resume//RakibResume.pdf'
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
